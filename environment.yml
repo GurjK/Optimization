@@ -1,0 +1,33 @@
+name: opt_env
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - numpy=1.23.5
+  - scipy=1.12.0
+  - numba=0.60.*
+  - pyarrow=18.*
+  - duckdb=1.1.*
+  - polars=1.0.0
+  - pyomo=6.8.*
+  - coin-or-cbc>=2.10
+  - ipopt>=3.14.0
+  - highs>=1.7.0
+  - glpk>=5.0
+  - orjson=3.10.*
+  - tqdm>=4.66
+  - bokeh>=3.5
+  - matplotlib>=3.9
+  - seaborn=0.13.2
+  - plotly>=5.24
+  - rich>=13.7
+  - typer>=0.12
+  - pip>=24.0
+  - setuptools>=68
+  - ipykernel>=6.29
+
+  - pip:
+      - jax==0.4.23
+      - jaxlib==0.4.23
+      - jaxopt==0.8.3
