@@ -1,7 +1,7 @@
 # src/__init__.py
 
-from .base import OptimizationModel
-from .linear import GeneratorCommitment
+from .electricity.base import OptimizationModel
+from .electricity.unit_commitment import GeneratorCommitment
 
 __all__ = [
     'OptimizationModel',
